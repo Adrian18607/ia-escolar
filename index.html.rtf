@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IA que te ayuda con tus deberes paso a paso. Ideal para estudiantes de secundaria y bachillerato." />
+  <title>IA Escolar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>📚 IA Escolar</h1>
+      <p>Tu asistente inteligente para resolver tareas con explicaciones claras y paso a paso.</p>
+    </header>
+
+    <section class="chatbox">
+      <textarea id="userInput" placeholder="Ej: Resuelve x² - 4x + 4 = 0 o Haz un resumen del Romanticismo..."></textarea>
+      <button onclick="sendQuestion()">Enviar</button>
+      <p class="limite-info">Preguntas gratis restantes hoy: <span id="remainingCount">15</span></p>
+      <div id="response"></div>
+    </section>
+
+    <footer>
+      <p>© 2025 IA Escolar · Todos los derechos reservados</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
